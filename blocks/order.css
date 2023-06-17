@@ -1,0 +1,71 @@
+.order {
+  margin: 0;
+  padding: 0 0 170px;
+  box-sizing: border-box;
+  background-image: url(../images/order__bg.png);
+  background-position: top center;
+  background-size: initial;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.order__items {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  position: relative;
+}
+
+.order__image {
+  position: absolute;
+  top: -140px;
+  right: calc(100% - 764px);
+  z-index: -1;
+}
+
+.order__form {
+  background: #211A16;
+  border-radius: 16px;
+  border: 1px solid #353535;
+  max-width: 426px;
+  padding: 60px 40px;
+  box-sizing: border-box;
+  margin-left: 674px;
+}
+
+.order__form-text {
+  margin: 0 0 40px;
+  font-size: 24px;
+  line-height: 1.21;
+  text-align: center;
+}
+
+.order__form-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px 0;
+}
+
+.order__form-input {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(9595.61deg, #DA8023 0%, #E2B438 100%);
+  width: 344px;
+  height: 62px;
+  border-radius: 8px;
+}
+
+.order__form-input-item {
+  display: flex;
+  align-self: center;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  background: #211a16;
+  color: #fff;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  width: 342px;
+  height: 60px;
+  outline: none;
+}
