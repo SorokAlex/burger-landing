@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./Gilroy-Semibold.ttf"),
+       url("./Gilroy-Semibold.woff") format('woff'),
+       url("./Gilroy-Semibold.woff2") format('woff2');
+}
+
+
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./Merriweather-Black.ttf") format("ttf"),
+       url("./Merriweather-Black.woff") format('woff'),
+       url("./Merriweather-Black.woff2") format('woff2');
+}
