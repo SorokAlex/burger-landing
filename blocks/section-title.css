@@ -1,0 +1,9 @@
+.section-title {
+  margin: 0 0 60px;
+  font-family: 'Merriweather', serif;
+  font-size: 64px;
+  line-height: 1.25;
+  letter-spacing: .03em;
+  text-align: center;
+  text-transform: uppercase;
+}
