@@ -1,0 +1,34 @@
+.reasons {
+  margin: 0 ;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 0 100px;
+}
+
+.reasons__item {
+  width: 312px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px 0;
+  text-align: center;
+  align-items: center;
+}
+
+.reasons__image {
+  width: 100px;
+  height: 100px;
+}
+
+.reasons__title {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.21;
+}
+
+.reasons__description {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.375;
+}
