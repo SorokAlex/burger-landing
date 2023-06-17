@@ -1,0 +1,8 @@
+.why {
+  margin: 0;
+  padding: 0 0 180px;
+  box-sizing: border-box;
+  background-image: url(../images/why__bg.png);
+  background-position: top center;
+  background-size: initial;
+}
