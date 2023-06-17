@@ -32,7 +32,7 @@ class Card {
     this._productTitle.textContent = this._name;
     this._productText.textContent = this._text;
     this._productImage.src = this._src;
-    this._productImage.alt = `${this._number}`;
+    this._productImage.alt = `${this._name}`;
     this._productPrice.textContent = this._number + this._currency;
     this._productPrice.price = this._currency;
     this._productWeight.textContent = this._weight;
