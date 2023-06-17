@@ -101,7 +101,7 @@ const initialCards = [
   {
     name: 'Двойной бургер чеддар',
     text: 'Булочка для бургера, котлета говяжья, грудинка, красный лук, огурец маринованный, томат, кетчуп, двойной сыр чеддар, горчица, зелень',
-    src: '../images/Double-burger-cheddar.png',
+    src: './images/Double-burger-cheddar.png',
     number: '9 ',
     currency: '$',
     weight: '360 гр',
