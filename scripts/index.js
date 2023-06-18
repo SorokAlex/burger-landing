@@ -85,10 +85,10 @@ for (let i= 0; i < productButton.length; i++) {
 
     if (currentCurrency ==='$') {
       newCurrency = '₽';
-      coefficient = '80';
+      coefficient = 80;
     } else if (currentCurrency ==='₽') {
       newCurrency = 'BYN';
-      coefficient = '3';
+      coefficient = 3;
     } else if (currentCurrency === 'BYN') {
       newCurrency = '€';
       coefficient = 0.9;
